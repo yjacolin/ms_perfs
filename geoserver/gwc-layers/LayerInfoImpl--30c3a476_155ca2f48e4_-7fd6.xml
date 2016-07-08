@@ -1,8 +1,8 @@
 <GeoServerTileLayer>
-  <id>LayerInfoImpl-1e6446e2:155c467622c:-7fe0</id>
+  <id>LayerInfoImpl--30c3a476:155ca2f48e4:-7fd6</id>
   <enabled>true</enabled>
   <inMemoryCached>true</inMemoryCached>
-  <name>OSM:roads_simple</name>
+  <name>OSM:building_simple</name>
   <mimeFormats>
     <string>image/png</string>
     <string>image/jpeg</string>
@@ -26,7 +26,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>roads_simple</defaultStyle>
+      <defaultStyle>building_simple</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
