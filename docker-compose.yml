@@ -47,6 +47,9 @@ qgis3:
     QGIS_OPTIONS_PATH: /root/
   ports:
     - 8083:80
+  environment:
+    QGIS_SERVER_PARALLEL_RENDERING: true
+    QGIS_SERVER_MAX_THREADS: 4
   volumes:
     - ./qgis:/project
     - ./qgis/QGIS:/root/QGIS
