@@ -1,5 +1,11 @@
 # HISTORY
 
+## 2020-05-2020
+
+* Remove QGIS-trust
+* Upgrade GeoServer to 2.17
+* Upgrade/Fix MapServer to 7.6
+
 ## 2018-07-19
 
 * Improve Mapserver image to support SVG symbols.
