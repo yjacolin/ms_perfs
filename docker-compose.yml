@@ -22,22 +22,22 @@ mapserver:
     - db
 
 geoserver:
-  image: camptocamp/geoserver:2.15
+  image: camptocamp/geoserver:2.17
   ports:
     - 8082:8080
   volumes:
-    - ./geoserver:/usr/local/tomcat/webapps/ROOT/data
+    - ./geoserver:/mnt/geoserver_datadir
   links:
     - db
 
 geoserver-jai:
-  image: camptocamp/geoserver:2.15
+  image: camptocamp/geoserver:2.17
   ports:
     - 8085:8080
   environment:
     CATALINA_OPTS: ""
   volumes:
-    - ./geoserver:/usr/local/tomcat/webapps/ROOT/data
+    - ./geoserver:/mnt/geoserver_datadir
   links:
     - db
 
